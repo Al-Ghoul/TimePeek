@@ -6,12 +6,17 @@ body {
   justify-content: center;
 }
 
+.time-zone-container {
+  display: flex;
+  justify-content: flex-end;
+}
 
 .time-zone,
 .current-date {
   text-align: center;
   text-align: end;
   padding: 5px;
+  margin: 0;
 }
 
 .current-time {
