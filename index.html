@@ -6,9 +6,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>TimePeek</title>
   <link href="css/style.css" rel="stylesheet" />
+  <script src="node_modules/dayjs/dayjs.min.js"></script>
+  <script src="node_modules/dayjs/plugin/utc.js"></script>
+  <script src="node_modules/dayjs/plugin/timezone.js"></script>
+  <script>
+    dayjs.extend(window.dayjs_plugin_utc);
+    dayjs.extend(window.dayjs_plugin_timezone);
+  </script>
+  <script defer src="js/main.js"></script>
 </head>
 
 <body>
+  <main id="main-container"></main>
 </body>
 
 </html>

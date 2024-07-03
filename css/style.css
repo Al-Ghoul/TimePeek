@@ -5,3 +5,9 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+.time-zone {
+  text-align: center;
+  text-align: end;
+  padding: 5px;
+}
