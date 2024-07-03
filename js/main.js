@@ -9,3 +9,8 @@ currentTime.classList.add("current-time");
 currentTime.textContent = dayjs().format("HH:mm:ss");
 mainContainer.appendChild(currentTime);
 
+const currentDate = document.createElement("p");
+currentDate.classList.add("current-date");
+currentDate.textContent = dayjs().format("dddd, D MMMM, YYYY");
+mainContainer.appendChild(currentDate);
+
