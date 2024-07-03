@@ -12,5 +12,6 @@ A snapshot of the site:
 
 - [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [Yarn](https://yarnpkg.com/)
 
