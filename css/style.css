@@ -11,3 +11,10 @@ body {
   text-align: end;
   padding: 5px;
 }
+
+.current-time {
+  text-align: end;
+  font-size: 5rem;
+  font-weight: bold;
+  margin: 0;
+}
